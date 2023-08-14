@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manifacturers",
+  "info": {
+    "singularName": "manifacturer",
+    "pluralName": "manifacturers",
+    "displayName": "manifacturer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
