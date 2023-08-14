@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "versions",
+  "info": {
+    "singularName": "version",
+    "pluralName": "versions",
+    "displayName": "version",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "body_type": {
+      "type": "string"
+    },
+    "fuel_fype": {
+      "type": "string"
+    },
+    "transmission_type": {
+      "type": "string"
+    },
+    "actual_power": {
+      "type": "string"
+    },
+    "tax_horsepower": {
+      "type": "string"
+    },
+    "seatsNb": {
+      "type": "string"
+    },
+    "doorsNb": {
+      "type": "string"
+    },
+    "model": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::model.model"
+    }
+  }
+}
